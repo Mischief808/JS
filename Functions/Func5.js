@@ -14,12 +14,6 @@ function outer()
         inner();
 }
 outer();
- function sub()
-{
-console.log("Subtraction");
-}
-sub();
-sub();
-sub();
-sub();
+
+ 
 

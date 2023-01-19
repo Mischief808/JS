@@ -1,4 +1,5 @@
 let brands=[];
+console.log(brands.length);
 brands.push("Allen Solly");
 console.log(brands);
 brands.push("PeterEngland");

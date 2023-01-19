@@ -1,9 +1,9 @@
-let dat=[{id:101,name:"Gibran",loc:"Banglore"},{id:102,name:"Daniel",loc:"Noida"},{id:103,name:"Michael",loc:"Hyderabad"}];
+let dat={id:101,name:"Gibran",loc:"Banglore"};
 /*
-for(db of dat)
+for(db in dat)
 {
-console.log(db.id);
-console.log(db);
+
+console.log(dat[db]);
 }
 
 for(i=0;i<=dat.length-1;i++)
@@ -18,10 +18,14 @@ while(i<=dat.length-1)
 console.log(dat[i]);
 i++;
 }
-*/
+
 var i=0;
 do
 {
 console.log(dat[i]);
 i++;
 }while(i<=dat.length-1);
+*/
+console.log(dat);
+dat.gender="male";
+console.log(dat);

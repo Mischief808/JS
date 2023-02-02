@@ -1,3 +1,4 @@
-var name="Suhail";
+var nam="Suhail";
 var area="Trivandrum";
-console.log(`name:${name} and area:${area}`);
+console.log(`Name:${nam} and area:${area}`);
+
